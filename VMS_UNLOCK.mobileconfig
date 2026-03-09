@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://apple.dns.nextdns.io/2acda3</string>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>EvaluateConnection</string>
+					<key>ActionParameters</key>
+					<array>
+						<dict>
+							<key>DomainAction</key>
+							<string>NeverConnect</string>
+							<key>Domains</key>
+							<array>
+								<string>captive.apple.com</string>
+								<string>dav.orange.fr</string>
+								<string>vvm.mobistar.be</string>
+								<string>vvm.mstore.msg.t-mobile.com</string>
+								<string>tma.vvm.mone.pan-net.eu</string>
+								<string>vvm.ee.co.uk</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>NextDNS (2acda3)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.1c8bd909-85e5-42da-8117-5fc71c17200f</string>
+			<key>PayloadOrganization</key>
+			<string>NextDNS</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>1c8bd909-85e5-42da-8117-5fc71c17200f</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>BLOCK FMI _ VMS - UNLOCKER</string>
+	<key>PayloadDisplayName</key>
+	<string>VMS-Unloker-Block FMI</string>
+	<key>PayloadIdentifier</key>
+	<string>iMazing-Profile-Editor.ee2bc635-4809-42c8-940d-a2f2cd5e8a4e</string>
+	<key>PayloadOrganization</key>
+	<string>VMS UNLOCK</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>ee2bc635-4809-42c8-940d-a2f2cd5e8a4e</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
